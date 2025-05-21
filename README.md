@@ -24,7 +24,7 @@ O **Portal do Funcionário** é uma interface voltada para o colaborador, integr
 ## 🖼️ Capturas de Tela
 
 <p align="center">
-  <img src="src/Assets/imagem_demostracao.png)" alt="Imagem de Demostração" width="600"/>
+  <img src="src/Assets/imagem_demostracao.png" alt="Imagem de Demostração" width="800"/>
 </p>
 
 ---
