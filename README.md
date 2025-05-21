@@ -20,7 +20,7 @@ O **Portal do Funcionário** é uma interface voltada para o colaborador, integr
 ## 🖼️ Capturas de Tela
 
 <p align="center">
-  <img src="src/Assets/AppRegistro.png" alt="Registro de ponto" width="400"/>
+  <img src="src/Assets/imagem_demostracao" alt="Registro de ponto" width="400"/>
   <img src="src/Assets/portal_funcionario.jpeg" alt="Portal do Funcionário" width="400"/>
 </p>
 
