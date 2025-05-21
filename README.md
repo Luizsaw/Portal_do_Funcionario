@@ -1,46 +1,101 @@
-# Sistema de Folha de Pagamento
 
-Bem-vindo ao repositório do site Portal do Funcioário desenvolvido com React, Css e JavaScript.
+# 🌐 Portal do Funcionário
 
-Este site é parte integrante de um sistema de folha de pagamento arquitetado e desenvolvido por mim. Este sistema é composto por três aplicações distintas, concebido como parte da aplicação prática dos conhecimentos adquiridos durante meu percurso acadêmico. Ao longo de seis meses, empenhei-me no desenvolvimento desta solução robusta, buscando oferecer uma ferramenta eficiente e intuitiva para a administração de recursos humanos.
+Bem-vindo ao **Portal do Funcionário**, uma aplicação web moderna desenvolvida com **React**, **JavaScript** e **CSS**, que oferece aos colaboradores uma plataforma simples e eficiente para gerenciar suas informações corporativas.
 
-## 1. Portal do Funcionário
+---
 
-O Portal do Funcionário é um site dedicado, proporcionando aos funcionários a facilidade de acessar e revisar suas informações pessoais, incluindo detalhes sobre a folha de pagamento e registros de ponto.
+## 📌 Sobre o Projeto
 
-## Available Script
+O **Portal do Funcionário** é uma interface voltada para o colaborador, integrada a um sistema completo de **folha de pagamento**. Ele permite:
 
-No diretório do projeto, você pode executar:
+- 👤 Acesso seguro às **informações pessoais**
+- 🧾 Visualização e **download de holerites**
+- ⏱️ Consulta dos **registros de ponto**
+- 📬 Acesso ao módulo de **mensagens internas**
+- 👨‍💼 Área administrativa para controle e ajustes internos
 
-### `npm start`
+---
 
-Executa o aplicativo no modo de desenvolvimento.\
-Abrir [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
+## 🖼️ Capturas de Tela
 
-#Login de acesso:
-Email: luizsaw@gmail.com
-senha: 123456
+<p align="center">
+  <img src="src/Assets/AppRegistro.png" alt="Registro de ponto" width="400"/>
+  <img src="src/Assets/portal_funcionario.jpeg" alt="Portal do Funcionário" width="400"/>
+</p>
 
-## 2. Folha de Pagamento
+---
 
-A aplicação de Folha de Pagamento é o núcleo do sistema, responsável pelo processamento dos holerites dos funcionários e pela gestão abrangente das informações dos colaboradores.
+## 🛠️ Tecnologias Utilizadas
 
-[[Link para o repositório](https://github.com/Luizsaw/RHS_Folha_de_Pagamento)](#)
+| Camada        | Tecnologias                                   |
+|---------------|-----------------------------------------------|
+| Frontend      | React, JavaScript (ES6+), HTML5, CSS3         |
+| Backend       | Node.js (`server.js`)                         |
+| Autenticação  | Firebase (via `FirebaseConnection.js`)        |
 
+---
 
-## 3. Registro de Ponto (Android App)
+## 📁 Estrutura de Pastas
 
-O Registro de Ponto é uma aplicação móvel desenvolvida para dispositivos Android, permitindo que os funcionários realizem registros precisos de entrada, saída e intervalo para o almoço de maneira simples.
+```
+src/
+├── Assets/                 # Imagens e recursos visuais
+├── Components/             # Componentes reutilizáveis (ex: Header)
+├── Pages/                  # Páginas principais (Home, Ponto, Admin etc.)
+│   ├── Admin/
+│   ├── Controle_Ponto/
+│   ├── Folha_Pagamento/
+│   ├── Home/
+│   ├── Mensagens/
+│   └── Register/
+├── Routes/                 # Rotas e controle de acesso
+├── App.js
+├── index.js
+```
 
-[[Link para o repositório](https://github.com/Luizsaw/RHS_Folha_de_Ponto)](#)
+---
 
-## Documentação
+## ⚙️ Como Executar Localmente
 
-Para uma compreensão detalhada de todo o processo de desenvolvimento, recomendo consultar a documentação inclusa neste repositório. Ela fornecerá insights valiosos sobre a arquitetura, a implementação e as decisões de design que fundamentam este projeto.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/portal-do-funcionario.git
+   cd portal-do-funcionario
+   ```
 
-Agradeço por explorar este repositório e espero que esta aplicação contribua positivamente para suas necessidades de gerenciamento de folha de pagamento.
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-[[Link para a Documentação](https://drive.google.com/file/d/14F7lBfh05t8UGVsVGT9HSLwE3RnL_FgR/view?usp=sharing)](#)
+3. Inicie a aplicação:
+   ```bash
+   npm start
+   ```
 
+> O projeto será executado em `http://localhost:3000`
 
+---
+
+## 🔐 Observações
+
+- Este projeto utiliza autenticação via **Firebase**. Configure seu projeto no Firebase e substitua as credenciais em `FirebaseConnection.js` para funcionamento correto.
+- O backend está presente em `server.js` e pode ser utilizado para futuras integrações com banco de dados ou APIs REST.
+
+---
+
+## ✨ Funcionalidades Futuras
+
+- Integração com banco de dados
+- Dashboard com KPIs
+- Upload de documentos pessoais
+- Notificações em tempo real
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são sempre bem-vindas!  
+Sinta-se à vontade para abrir uma *issue*, *forkar* o repositório e enviar um *pull request*.
 
