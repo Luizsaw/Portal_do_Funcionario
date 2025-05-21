@@ -3,6 +3,10 @@
 
 Bem-vindo ao **Portal do Funcionário**, uma aplicação web moderna desenvolvida com **React**, **JavaScript** e **CSS**, que oferece aos colaboradores uma plataforma simples e eficiente para gerenciar suas informações corporativas.
 
+<p align="center">
+  <img src="src/Assets/portal_funcionario.jpeg" alt="Portal do Funcionário" width="100"/>
+</p>
+
 ---
 
 ## 📌 Sobre o Projeto
@@ -20,8 +24,7 @@ O **Portal do Funcionário** é uma interface voltada para o colaborador, integr
 ## 🖼️ Capturas de Tela
 
 <p align="center">
-  <img src="src/Assets/imagem_demostracao.png)" alt="Imagem de Demostração" width="400"/>
-  <img src="src/Assets/portal_funcionario.jpeg" alt="Portal do Funcionário" width="400"/>
+  <img src="src/Assets/imagem_demostracao.png)" alt="Imagem de Demostração" width="600"/>
 </p>
 
 ---
