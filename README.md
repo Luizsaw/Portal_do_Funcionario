@@ -87,7 +87,6 @@ src/
 
 ## ✨ Funcionalidades Futuras
 
-- Integração com banco de dados
 - Dashboard com KPIs
 - Upload de documentos pessoais
 - Notificações em tempo real
